@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2C2722"/>
+      <stop offset="1" stop-color="#171411"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EA9679"/>
+      <stop offset="1" stop-color="#CB6B49"/>
+    </linearGradient>
+    <radialGradient id="sheen" cx="0.3" cy="0.22" r="0.8">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="0.6" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="tile"><rect x="16" y="16" width="224" height="224" rx="56"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#tile)">
+    <rect x="16" y="16" width="224" height="224" fill="url(#bg)"/>
+    <rect x="16" y="16" width="224" height="224" fill="url(#sheen)"/>
+  </g>
+  <rect x="15.3" y="15.3" width="225.4" height="225.4" rx="56" fill="none" stroke="#38322C" stroke-width="1.4"/>
+
+  <path d="M72 180 C100 150 156 106 184 76" fill="none" stroke="url(#orange)"
+        stroke-width="24" stroke-linecap="round"/>
+  <polygon points="194.2,65.1 195.7,89.7 169.5,65.2" fill="url(#orange)"/>
+  <circle cx="72" cy="180" r="12.5" fill="url(#orange)"/>
+  <circle cx="128" cy="128" r="26" fill="url(#orange)"/>
+  <circle cx="128" cy="128" r="10.5" fill="url(#bg)"/>
+</svg>

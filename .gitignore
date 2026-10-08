@@ -1,0 +1,8 @@
+/target
+*.log
+config.toml
+claude-detour.toml
+assets/out_help.txt
+assets/out_test.txt
+assets/*.py
+assets/flow.png
